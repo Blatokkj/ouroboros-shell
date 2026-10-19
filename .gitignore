@@ -1,0 +1,20 @@
+# Cache e temporários
+.cache/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.bak
+*~
+
+# Compilações
+build/
+dist/
+node_modules/
+
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+*.key
+*.pem

@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+// Only injected into the private integration test's PATH.
+require('node:fs').appendFileSync(process.env.ARCHBLATO_TEST_BRIGHTNESS_LOG, JSON.stringify(process.argv.slice(2)) + '\n');
+setTimeout(() => process.exit(process.argv.includes('13%') ? 1 : 0), 80);

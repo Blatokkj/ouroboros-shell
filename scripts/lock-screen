@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+shell_dir=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
+exec qs ipc --path "$shell_dir" call lock lock

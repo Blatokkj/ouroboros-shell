@@ -1,0 +1,14 @@
+{
+  "BACKGROUND": "#0d0b0a",
+  "SURFACE": "#181513",
+  "SURFACE_ALT": "#25211d",
+  "TEXT": "#f6f5f4",
+  "TEXT_ALT": "#e0dbd7",
+  "TEXT_MUTED": "#b4a79d",
+  "PRIMARY": "#af7f58",
+  "ACCENT": "#af7f58",
+  "SECONDARY": "#938c31",
+  "TOOLKIT": "af7f58",
+  "BORDER_ACTIVE": "rgba(af7f58ff)",
+  "BORDER_INACTIVE": "rgba(64584faa)"
+}

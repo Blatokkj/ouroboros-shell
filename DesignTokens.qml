@@ -1,0 +1,69 @@
+import QtQuick
+
+// Geometry/motion are handwritten; Theme supplies the generated Archblato palette.
+QtObject {
+    property var wallpaperColors: ({})
+    readonly property int radiusSmall: 8
+    readonly property int radiusMedium: 12
+    readonly property int radiusLarge: 16
+    readonly property int radiusPanel: 20
+    readonly property int radiusDock: 28
+    readonly property int spaceTiny: 4
+    readonly property int spaceSmall: 6
+    readonly property int spaceMedium: 8
+    readonly property int spaceLarge: 12
+    readonly property int spaceXLarge: 16
+    readonly property int panelPadding: 12
+    readonly property int panelGap: 6
+    readonly property int barHeight: 34
+    readonly property int buttonHeight: 32
+    readonly property int iconButtonSize: 34
+    readonly property int toggleHeight: 72
+    readonly property int toggleCompactHeight: 52
+    readonly property int sliderHeight: 58
+    readonly property int sliderCompactHeight: 40
+    readonly property int controlCenterWidth: 480
+    readonly property int controlCenterHeight: 480
+    readonly property int fontCaption: 10
+    readonly property int fontSmall: 11
+    readonly property int fontHeading: 18
+    readonly property int iconSmall: 16
+    readonly property int iconButtonCompactSize: 26
+    readonly property int trayIconSize: 17
+    readonly property int mediaCoverSize: 96
+    readonly property int barMediaMaxWidth: 210
+    readonly property int musicWingWidth: 260
+    readonly property int musicWingHeight: 382
+    readonly property int musicWingsDelay: 5000
+    readonly property int toastWidth: 320
+    readonly property int toastMinHeight: 76
+    readonly property int fontLockClock: 76
+    readonly property int radiusLock: 30
+    readonly property int iconMedium: 18
+    readonly property int iconLarge: 22
+    readonly property int borderThin: 1
+    readonly property int borderFocus: 2
+    readonly property int motionFast: 140
+    readonly property int motionNormal: 190
+    readonly property int motionPanel: 220
+    readonly property int motionExit: 150
+    readonly property int motionDockEnter: 320
+    readonly property int motionDockExit: 260
+    readonly property int motionTab: 180
+    readonly property int tabTravel: 10
+    readonly property int calendarWidth: 380
+    readonly property int quickCompactWidth: 300
+    readonly property int quickNetworkWidth: 390
+    readonly property int quickCompactHeight: 142
+    readonly property int quickNetworkHeight: 430
+    readonly property int viewportBottomGap: 16
+    readonly property int tabHeight: 46
+    readonly property int sliderKnobSize: 16
+    readonly property int sliderTrackHeight: 6
+    readonly property real sliderPressedScale: 1.12
+    readonly property int motionSlow: 300
+    readonly property real hoverScale: 1.015
+    readonly property real pressedScale: 0.98
+    readonly property real panelStartScale: 0.985
+    readonly property int panelTravel: 18
+}

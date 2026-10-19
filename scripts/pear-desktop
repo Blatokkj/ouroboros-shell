@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Only White's Pear launcher. The installed app and its flags remain untouched.
+set -euo pipefail
+export ELECTRON_IS_DEV=0
+unset ELECTRON_RUN_AS_NODE
+# Package upgrades keep working through the original entry point until this adapter is reviewed.
+if [[ "$(pacman -Q pear-desktop 2>/dev/null)" != 'pear-desktop 3.12.0-'* ]]; then
+    printf '%s\n' 'Archblato: versão nova do Pear; usando lançador original, sem cores ao vivo.' >&2
+    exec /usr/bin/pear-desktop "$@"
+fi
+pear_shell_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+pear_flags_file="${XDG_CONFIG_HOME:-$HOME/.config}/pear-flags.conf"
+pear_flags=()
+if [[ -f "$pear_flags_file" ]]; then
+    while IFS= read -r pear_line || [[ -n "$pear_line" ]]; do
+        [[ "$pear_line" =~ ^[[:space:]]*# || -z "$pear_line" ]] && continue
+        read -r -a pear_line_flags <<< "$pear_line"
+        pear_flags+=("${pear_line_flags[@]}")
+    done < "$pear_flags_file"
+fi
+exec electron42 "$pear_shell_dir/integrations/pear" "${pear_flags[@]}" "$@"

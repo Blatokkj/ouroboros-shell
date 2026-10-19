@@ -1,0 +1,63 @@
+/* Archblato: generated color layer. Load after your existing theme in Pear. */
+html:not(.style-scope) {
+  --cust-ytmusic-play-nav-color: #181513 !important;
+  --cust-ytmusic-dark-background: #0d0b0a !important;
+  --cust-ytmusic-dark-foreground: #181513 !important;
+  --cust-ytmusic-light-text-1: #f6f5f4 !important;
+  --cust-ytmusic-light-2: #e0dbd7 !important;
+  --cust-ytmusic-light-3: #e0dbd7 !important;
+  --cust-ytmusic-light-4: rgba(180, 167, 157, 0.55) !important;
+  --cust-ytmusic-light-5: #af7f58 !important;
+  --cust-ytmusic-medium-1: rgba(180, 167, 157, 0.72) !important;
+  --cust-ytmusic-medium-2: #e0dbd7 !important;
+  --cust-ytmusic-medium-3: #b4a79d !important;
+  --cust-ytmusic-medium-4: #b4a79d !important;
+  --cust-ytmusic-medium-5: #25211d !important;
+  --cust-ytmusic-subscribe-color: #af7f58 !important;
+  --cust-ytmusic-playbutton-color: #af7f58 !important;
+  --cust-ytmusic-tertiary-nav-button-color: #938c31 !important;
+  --cust-ytmusic-nowplaying-color: #af7f58 !important;
+  --cust-ytmusic-main-text-1: #e0dbd7 !important;
+  --cust-ytmusic-header-text-1: #f6f5f4 !important;
+  --cust-ytmusic-header-text-2: #e0dbd7 !important;
+  --ytmusic-color-black1: #181513 !important;
+  --ytmusic-color-black2: #181513 !important;
+  --ytmusic-color-black3: #25211d !important;
+  --ytmusic-color-black4: #0d0b0a !important;
+  --ytmusic-color-blackpure: #0d0b0a !important;
+  --ytmusic-color-white1: #f6f5f4 !important;
+  --ytmusic-color-grey1: #e0dbd7 !important;
+  --ytmusic-color-grey2: #b4a79d !important;
+  --ytmusic-static-brand-red: #af7f58 !important;
+  --ytmusic-brand-link-text: #af7f58 !important;
+  --ytmusic-setting-item-toggle-active: #af7f58 !important;
+  --ytmusic-dialog-background-color: #181513 !important;
+  --yt-spec-text-primary: #f6f5f4 !important;
+  --yt-spec-text-secondary: #b4a79d !important;
+  --yt-spec-themed-blue: #af7f58 !important;
+  --yt-spec-brand-link-text: #af7f58 !important;
+}
+html, body, ytmusic-app {
+  background-color: #0d0b0a !important;
+  color: #f6f5f4 !important;
+}
+ytmusic-nav-bar, ytmusic-player-bar {
+  background-color: #181513 !important;
+  color: #f6f5f4 !important;
+}
+ytmusic-search-box {
+  --ytmusic-search-background: #25211d !important;
+}
+html:not(.style-scope) ytmusic-player-bar #progress-bar.ytmusic-player-bar,
+html:not(.style-scope) ytmusic-player-bar #progress-bar.ytmusic-player-bar[focused],
+html:not(.style-scope) ytmusic-player-bar:hover #progress-bar.ytmusic-player-bar,
+html:not(.style-scope) ytmusic-player-bar #volume-slider {
+  --paper-slider-active-color: #af7f58 !important;
+  --paper-slider-knob-color: #af7f58 !important;
+  --paper-slider-knob-start-color: #af7f58 !important;
+  --paper-slider-knob-start-border-color: #af7f58 !important;
+  --paper-slider-container-color: #25211d !important;
+}
+ytmusic-player-bar .play-pause-button {
+  color: #af7f58 !important;
+}
