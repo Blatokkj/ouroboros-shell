@@ -18,3 +18,12 @@ node_modules/
 !.env.example
 *.key
 *.pem
+
+# Dados pessoais e estados locais
+/profile.json
+/wallpaper-colors.json
+
+# Credenciais adicionais
+*.token
+*.secret
+*.credentials
