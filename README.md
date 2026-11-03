@@ -1,4 +1,4 @@
-# Archblato Shell
+# Ouroboros Shell
 
 Shell pessoal do White, feito com QuickShell. Não é um framework nem uma
 configuração universal: hardware, caminhos e integrações continuam feitos para
@@ -35,7 +35,7 @@ este setup. Ele cobre:
 
 ## Execução
 
-O autostart do Archblato inicia esta configuração com:
+O autostart do Ouroboros inicia esta configuração com:
 
 ```bash
 qs --daemonize --no-duplicate --path ~/.config/archblato/quickshell
